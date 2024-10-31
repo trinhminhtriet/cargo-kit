@@ -35,7 +35,7 @@ inquire = "0.7.0"
 rustc_version = "0.4.0"
 similar = { version = "2.4.0", features = ["inline"] }
 thiserror = "1.0.57"
-toml_edit = "0.22.6"
+toml_edit = "0.22.20"
 which = "6.0.3"
 
 [dev-dependencies]
