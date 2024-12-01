@@ -47,3 +47,6 @@ rexpect = "0.5.0"
 
 [profile.dev]
 debug = 0
+
+[profile.release]
+lto = true
