@@ -39,6 +39,14 @@ To install **cargo-kit**, simply clone the repository and follow the instruction
 git clone git@github.com:trinhminhtriet/cargo-kit.git
 cd cargo-kit
 
+cargo build --release
+cp target/release/cargo-kit /usr/local/bin/cargo-kit
+
+```
+
+Alternatively, you can install the binary directly from the repository:
+
+```bash
 cargo install --path .
 ```
 
@@ -58,15 +66,18 @@ source ~/.bashrc
 ## 💡 Usage
 
 - Interactive mode (CLI dialog that guides you through the process):
-  ```bash
-  $ cargo kit
-  ```
+
+```sh
+$ cargo kit
+```
+
 - Non-interactive mode (directly apply a predefined template to your Cargo workspace):
-  ```bash
-  $ cargo kit apply <template> <profile>
-  # For example, apply `fast-runtime` template to the `dist` profile
-  $ cargo kit apply fast-runtime dist
-  ```
+
+```sh
+$ cargo kit apply <template> <profile>
+# For example, apply `fast-runtime` template to the `dist` profile
+$ cargo kit apply fast-runtime dist
+```
 
 You can enable additional configuration options that require a nightly compiler by running `cargo-kit` with a
 nightly Cargo (e.g. `cargo +nightly kit`) or by using the `--nightly` flag.
