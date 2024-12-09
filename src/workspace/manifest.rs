@@ -1,7 +1,7 @@
 use std::path::{Path, PathBuf};
 
 use anyhow::Context;
-use toml_edit::{table, value, Array, Document, Item, Value};
+use toml_edit::{table, value, Array, DocumentMut as Document, Item, Value};
 
 use crate::template::{dev_profile, release_profile, TemplateItemId};
 use crate::{Template, TomlValue};

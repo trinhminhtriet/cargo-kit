@@ -3,7 +3,7 @@ use std::path::{Path, PathBuf};
 
 use crate::{Template, TemplateItemId, TomlValue};
 use anyhow::Context;
-use toml_edit::{table, value, Array, Document, Formatted, Value};
+use toml_edit::{table, value, Array, DocumentMut as Document, Formatted, Value};
 
 /// Config stored in `.cargo/config.toml` file.
 #[warn(deprecated)]
