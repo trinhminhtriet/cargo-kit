@@ -96,20 +96,6 @@ apply the configuration options to that workspace.
 - Cargo config (`config.toml`) changes are applied to the global `build.hostflags` setting, because per-profile
   RUSTFLAGS are still [unstable](https://github.com/rust-lang/cargo/issues/10271).
 
-## 🗑️ Uninstallation
-
-Running the below command will globally uninstall the `cargo-kit` binary.
-
-```bash
-cargo uninstall cargo-kit
-```
-
-Remove the project repo
-
-```bash
-rm -rf /path/to/git/clone/cargo-kit
-```
-
 ## 🤝 How to contribute
 
 We welcome contributions!

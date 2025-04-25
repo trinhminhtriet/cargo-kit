@@ -112,7 +112,7 @@ dependencies = [
 
 [[package]]
 name = "cargo-kit"
-version = "0.1.8"
+version = "0.1.9"
 dependencies = [
  "anyhow",
  "atty",
