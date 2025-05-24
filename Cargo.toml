@@ -24,7 +24,7 @@ indexmap = "2.8.0"
 inquire = "0.7.0"
 rustc_version = "0.4.0"
 similar = { version = "2.7.0", features = ["inline"] }
-thiserror = "1.0.66"
+thiserror = "2.0.9"
 toml_edit = "0.22.24"
 which = "7.0.3"
 
