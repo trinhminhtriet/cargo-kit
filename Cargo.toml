@@ -19,7 +19,7 @@ anyhow = "1.0.95"
 atty = "0.2.14"
 cargo_metadata = "0.19.1"
 clap = { version = "4.5.39", features = ["derive"] }
-console = { version = "0.15.10", features = ["windows-console-colors"] }
+console = { version = "0.16.0", features = ["windows-console-colors"] }
 indexmap = "2.9.0"
 inquire = "0.7.0"
 rustc_version = "0.4.0"
