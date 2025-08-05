@@ -1,6 +1,6 @@
 [package]
 name = "cargo-kit"
-version = "0.1.9"
+version = "0.1.10"
 edition = "2021"
 description = "Cargo subcommand to apply performance, compile-time, or size-optimized profiles and configs to your Rust project for enhanced build efficiency."
 homepage = "https://trinhminhtriet.com"
