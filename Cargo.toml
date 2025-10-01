@@ -18,7 +18,7 @@ include = ["src/**/*.rs", "Cargo.toml", "README.md"]
 anyhow = "1.0.98"
 atty = "0.2.14"
 cargo_metadata = "0.21.0"
-clap = { version = "4.5.42", features = ["derive"] }
+clap = { version = "4.5.48", features = ["derive"] }
 console = { version = "0.15.10", features = ["windows-console-colors"] }
 indexmap = "2.10.0"
 inquire = "0.9.1"
