@@ -114,7 +114,7 @@ dependencies = [
  "rustc_version",
  "similar",
  "tempfile",
- "thiserror 1.0.66",
+ "thiserror",
  "toml_edit",
  "which",
 ]
@@ -138,7 +138,7 @@ dependencies = [
  "serde",
  "serde-untagged",
  "serde-value",
- "thiserror 2.0.14",
+ "thiserror",
  "toml",
  "unicode-xid",
  "url",
@@ -156,7 +156,7 @@ dependencies = [
  "semver",
  "serde",
  "serde_json",
- "thiserror 2.0.14",
+ "thiserror",
 ]
 
 [[package]]
@@ -772,7 +772,7 @@ dependencies = [
  "nix",
  "regex",
  "tempfile",
- "thiserror 2.0.14",
+ "thiserror",
 ]
 
 [[package]]
@@ -971,31 +971,11 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "1.0.66"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d171f59dbaa811dbbb1aee1e73db92ec2b122911a48e1390dfe327a821ddede"
-dependencies = [
- "thiserror-impl 1.0.66",
-]
-
-[[package]]
-name = "thiserror"
 version = "2.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b0949c3a6c842cbde3f1686d6eea5a010516deb7085f79db747562d4102f41e"
 dependencies = [
- "thiserror-impl 2.0.14",
-]
-
-[[package]]
-name = "thiserror-impl"
-version = "1.0.66"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b08be0f17bd307950653ce45db00cd31200d82b624b36e181337d9c7d92765b5"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
+ "thiserror-impl",
 ]
 
 [[package]]
